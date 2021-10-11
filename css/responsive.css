@@ -1,0 +1,30 @@
+@media screen and (max-width: 1300px) {
+  /* header {
+    width: fit-content;
+  } */
+  body {
+    background-color: lightgoldenrodyellow;
+  }
+  nav {
+    flex-direction: column;
+    width: -webkit-fill-available;
+  }
+  .logo {
+    /* margin: 122px 0; */
+    width: 250px;
+  }
+  nav ul {
+    justify-content: center;
+    height: 40px;
+    overflow: hidden;
+  }
+  .slider {
+    height: 47vh;
+  }
+  .container {
+    min-height: calc(300vh - 87px - 12vh);
+  }
+  h1 {
+    padding: 0px 10px;
+  }
+}
